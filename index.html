@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style/common.css">
+  <link rel="stylesheet" href="style-pages/index.css">
+</head>
+<body>
+  <!-- <p class="index-heading">Microprocessor</p> -->
+<header> 
+<div  onclick="showSidebar()">
+  <button type="" class="header-menu"></button>
+</div>
+<div class="header-content"></div>
+</header>
+
+<sidebar class="sidebar-index">
+   <button id ="closebtn-index" style="margin: 20px" onclick="closeSidebar()">❌</button>
+   <br><br>
+   
+   <div>Home</div>
+   <div>Practical</div>
+   <div>Tutorial</div> 
+   <div>Practice Quiz</div>
+   <div>Share</div>
+   
+   
+</sidebar>
+
+<div class="continue" >
+
+  
+  
+<card class="continue">
+<a href="chapters/chapterlist.html" style="color: black">
+  <chead class="chead-notes"></chead>
+  <cpara class="cpara-notes"></cpara>
+</a>
+</card>
+
+
+<card class="continue">
+  <chead class="chead-prac"></chead>
+  <cpara class="cpara-prac"></cpara>
+</card>
+
+<card class="continue">
+  <chead class="chead-tut"></chead>
+  <cpara class="cpara-tut"></cpara>
+</card>
+
+</div>
+
+
+
+</body>
+  <script src="/database.js/DB-index.js"></script>
+</html>

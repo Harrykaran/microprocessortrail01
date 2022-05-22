@@ -1,0 +1,89 @@
+:root {
+  --light : #707793;
+  --dark : #2E3047 ;
+}
+
+body {
+    background-color:  #3C3F58 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14px;
+    /* background-color: var(--light)  */
+}
+
+
+header{
+  background-color: var(--dark) ;
+  
+  display: flex ;
+  color: black;
+  border-radius: 4px ;
+  padding: 7px;
+  font-weight: 700 ;
+  font-size: 19px;
+  align-items: center;
+  position: sticky ;
+}
+.header-menu{
+  /* background-color: red; */
+  /* text-align: center ; */
+  font-size: 19px;
+  padding: 3px;
+  color: none ;
+  width: 30px;
+  height: 30px;;;
+  border-radius: 0%;
+  justify-content: center ;
+  align-items: center;
+  display: flex ;
+  background-color: var(--dark)
+  
+}
+.header-content{
+  background-color: none;
+  color: white;
+  width: 100% ;
+  text-align: center;
+}
+
+.continue{
+  display: inline-table;
+}
+
+sidebar {
+  margin: 11px 0 ;
+  padding: 0;
+  display: block;
+  position: fixed;
+  z-index: 3;
+  height: 97%;
+  width: 300px;
+  top: 0px;
+  left: -350px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  margin-left: 8px;
+  background-color: #2E3047;
+  transition: all 0.5s ease-in-out;
+  border: 7px solid #3BB9AC;
+  border-left: none;
+  border-top: none;
+  font-size: 20px;
+  padding: 20px;
+}
+#closebtn-index{
+  font-size: 17px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #2E3047;
+}
+sidebar:hover {
+  width: 250px ;
+}
+sidebar div {
+  background-color: white;
+  padding: 6px;
+  margin: 7px;
+  padding-left: 25px;
+  border-radius: 6px;
+  width: 90%;
+}
